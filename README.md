@@ -1,0 +1,1 @@
+# intelliot-waypoint-service
