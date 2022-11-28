@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  waypoint-service:
+    image: intelliot-waypoint-service:latest
+    build:
+      context: .
+    container_name: waypoint-service
+    ports:
+      - 8081:8081
+    restart: always
