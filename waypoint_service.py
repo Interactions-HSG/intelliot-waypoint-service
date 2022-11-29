@@ -5,7 +5,7 @@ import http.server
 import socketserver
 import json
 
-PORT = 80
+PORT = 8081
 
 class WaypointService(http.server.BaseHTTPRequestHandler):
     
